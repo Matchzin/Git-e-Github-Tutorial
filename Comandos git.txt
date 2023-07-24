@@ -1,0 +1,26 @@
+git clone <link>: Clona um repositório para minha máquina local.
+git log: Ver as atualizações feitas no projeto.
+git log --oneline: Ver todas as alterações feitas no projeto. (Histórico de Commit)
+
+OBS.: Antes de fazer o "git pull https://github.com/Matchzin/Aprendendo-Git-e-Github.git", por exemplo, vc deve fazer o git clone e entrar no diretório que foi clonado para a sua máquina local.
+
+git pull <link>: Saber quais foram as mudanças feitas no repositório 
+
+Enviando . . . :
+
+Para enviar para o Github e realmente fazer as alterações necessárias, devemos seguir alguns passos simples:
+
+
+1 - git add . : Use esse comando caso queira enviar todos arquivos e pastas de uma pasta local.
+
+1.a - git add nome_da_pasta/ :use este para ragistrar somente uma pasta para envio.
+
+Agr para preparar para enviar, devemos fazer o commit dos arquivos e/ou pastas.
+
+2 - git commit nome_do_arquivo -m "Atualizando o caminho do main.js para o index.html, por exemplo": Use isso para fazer o commit de um arquivo somente, por exemplo.
+
+2a - git commit -m "Descrição curta das alterações" : Use isso para fazer o commit de todas as pastas e arquivos que foram adicionados por git add, por exemplo.
+
+3 - git push origin main : Empurra as alterações para o Github.
+
+OBS: main é o nome da branch "principal", pode variar de acordo com a branch que está localizado o repositório que vai ser atualizado.

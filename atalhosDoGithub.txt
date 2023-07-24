@@ -1,0 +1,1 @@
+Quando entrar em um Repositório, clicando no botão "." (ponto), conseguimos abrir uma extenção do VSCode na web para prgramar.
