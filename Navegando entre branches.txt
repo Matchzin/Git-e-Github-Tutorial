@@ -1,0 +1,5 @@
+Como navegar entre a branch principal "main" e a branch "desenvolvimento" através do comando git switch;
+
+Podemos alternar entre as branches usando o seginte comando:
+
+git switch main (nome-da-branch)

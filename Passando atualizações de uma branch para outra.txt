@@ -1,0 +1,16 @@
+Para explicar como passar as alterações feitas em uma branch para outra, vamos usar um exemplo:
+
+
+Criei uma branch chamada "desenvolvimento" e estou dentro dela.
+
+Tenho alguns arquivos que estão também na branch main, só que as alterações que eu fiz ficaram somente na branch desenvolvimento. Agora que vi que o código está funcionando, quero passar as alterações feitas na minha branch desenvolvimento para a minha branch main. Para fazer isso vou usar o comando: 
+
+git merge desenvolvimento(nome da branch que estão localizadas as atualizações)
+
+OBS.: No momento que eu for fazer o merge da branch desenvolvimento, por exemplo, tenho que estar localizado na branch de destino das modificações, neste caso, main, pois vou passar as modificações de "desenvolvimento" para a branch main.
+
+
+Após este comando, devo fazer o push das alterações:
+
+git push origin main ==> Empurre as alterações para a branch 
+main
