@@ -1,0 +1,20 @@
+As branches (ramificações) em sistemas de controle de versão, como o Git, têm como funcionalidade permitir que diferentes desenvolvedores trabalhem em paralelo em diferentes recursos, correções ou melhorias em um projeto, sem afetar o código principal (branch principal). As branches também facilitam o gerenciamento de fluxos de trabalho colaborativos, testes e lançamentos de novas funcionalidades, pois as alterações em uma branch não são diretamente refletidas no código principal até que sejam mescladas (merge) de volta à branch principal. Isso possibilita o desenvolvimento seguro e organizado de múltiplas linhas de trabalho ao mesmo tempo, tornando as branches uma parte essencial da colaboração e desenvolvimento de projetos de software.
+
+
+
+Para criar uma nova branch pelo terminal, basta digitar: 
+
+git checkout -b desenvolvimento(nome da nova branch)
+
+Após isso, digitando o comando git branch, poderá ver as branches criadas e a que você está localizada aparecerá em destaque.
+
+
+Ex.:
+
+
+PS C:\#\#\Desktop\#> git branch
+* desenvolvimento (Este texto está destacado na cor verde)
+  main
+PS C:\#\#\Desktop\#>
+
+

@@ -24,3 +24,19 @@ Agr para preparar para enviar, devemos fazer o commit dos arquivos e/ou pastas.
 3 - git push origin main : Empurra as alterações para o Github.
 
 OBS: main é o nome da branch "principal", pode variar de acordo com a branch que está localizado o repositório que vai ser atualizado.
+
+
+
+
+PODEMOS RESTAURAR VERSÕES ANTERIORES DE PROJETOS.  Para isso, basta usar o seguinte comando no diretório local do projeto que vc deseja regredir alguma versão: git log --oneline 
+depois disso, vão aparecer todas as versões dos commits realizados nesse projeto.
+
+Vendo isso, escolha a versão que vc deseja restaurar e pegue o código exadecimal do commit, algo parecido com "a1b234c" (isso é só uma representação).
+Para restaurar a versão desejada, basta digitar o seguinte comando: 
+
+
+git restore --source a1b234c nome-do-arquivo-especifico-daquela-versão-para-ser_restaurada.txt
+
+Se for restaurar aquela versão de todos os arquivos: git restore --source a1b234c .
+
+Se for este o caso, lembre de colocar o ponto depois do espaço após o exadecimal

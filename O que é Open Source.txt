@@ -1,0 +1,5 @@
+Você sabe o que é Open Source?
+
+Open Source é um código projetado para ser acessado abertamente por qualquer pessoa, que pode ver, modificar e distribuir conforme suas demandas.
+
+Você pode ver mais detalhes nesse artigo do Bruno Divino (https://www.alura.com.br/artigos/open-source-uma-breve-introducao?_gl=1*1rfw0si*_ga*MjEwMDEzOTY2OC4xNjg0MTg2ODkz*_ga_59FP0KYKSM*MTY5MDIyODkyNy4xMzcuMS4xNjkwMjI5ODcyLjAuMC4w*_fplc*VUtDNkJySkswQ3NmRCUyRnpUJTJGaUw4SzRPJTJCV0tydTlLNG9UNDZJNHd1Y1YlMkZaMEI5UmRyRzZLMmVTZ1ZMM2klMkZHWmRhVENUbFVDN2lEZXJnc1JUcmtxak9ZWHB3UEVkTk1YbHFuemZsamNMS0hWbGdVOURyQ0t4TGI3Qkt0ZnlBdyUzRCUzRA..).
